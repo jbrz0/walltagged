@@ -95,3 +95,21 @@
   top: 0px;
   height: 0px;
 }
+@media (max-width: 430px) {
+  .menuBtn {
+    font-size: 0;
+    width: 42px;
+    span {
+      width: 40px !important;
+    }
+  }
+  .menuBtnWrap {
+    max-width: 44px;
+    left: -40px;
+  }
+  .browseWrap {
+    right: -154px;
+    left: 47px;
+    top: -50px;
+  }
+}

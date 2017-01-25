@@ -6,7 +6,7 @@ export default class PopularTags extends React.Component {
     return(
 
       <div className={s.popularTagsWrap}>
-        <div className={s.containerWrap}>
+        <div className={s.tagsContainerWrap}>
         <h3>popular tags</h3>
 
         <div className={s.tagBtnWrap}>

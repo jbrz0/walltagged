@@ -65,12 +65,14 @@ class Browse extends React.Component {
         <div className={s.footer}>
           <a href="/"><img src={LogoFooter} className={s.footerLogo} /></a>
 
-          <ul className={s.footerMenu}>
+          {/* <ul className={s.footerMenu}>
             <a href="#"><li>contact</li></a>
             <a href="#"><li>privacy</li></a>
             <a href="#"><li>about</li></a>
             <a href="#"><li>browse</li></a>
-          </ul>
+          </ul> */}
+
+          <p className={s.footerTxt}>2017 - walltagged.com</p>
 
         </div>
 

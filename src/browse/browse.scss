@@ -70,3 +70,17 @@
   margin-bottom: -130px;
   /* adjusted without props */
 }
+
+@media (max-width: 927px) {
+  .box {
+    width: 60%;
+    max-width: 100%;
+  }
+  .boxRow {
+    margin-top: 0;
+  }
+  .boxRowTop {
+    margin-top: 130px;
+  }
+
+}

@@ -5,7 +5,7 @@ import s from './welcome.scss';
 import cx from 'classnames';
 
 import WatchNow from './watchNow.jsx';
-import FromTheCommunity from './fromTheCommunity';
+// import FromTheCommunity from './fromTheCommunity';
 import PopularTags from './popularTags.jsx';
 
 import LogoFooter from '../img/logo-footer.svg';
@@ -65,7 +65,7 @@ class App extends React.Component {
 
 
         <WatchNow />
-        <FromTheCommunity />
+        {/* <FromTheCommunity /> */}
         <PopularTags />
 
         <div className={s.footer}>

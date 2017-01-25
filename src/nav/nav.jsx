@@ -21,7 +21,7 @@ export default class Nav extends React.Component {
         <div className={s.menuBtnWrap}>
           <a href="canvas">
             <div className={s.menuBtn}>
-              <span><img src={NewIcon} /> New</span>
+              <span className={s.newWrap}><img src={NewIcon} /> New</span>
             </div>
           </a>
 
