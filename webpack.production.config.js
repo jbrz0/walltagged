@@ -61,7 +61,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			template: './src/template.html',
-			title: 'Webpack App'
+			title: 'WallTagged'
 		}),
 		new webpack.optimize.DedupePlugin()
 	]

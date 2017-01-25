@@ -2,8 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>React App</title>
+  <title>WallTagged | Create & Save</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:200,400"
+      rel="stylesheet">
+  <style>
+    .lower-canvas,
+    .upper-canvas,
+    .canvas-container,
+    .sketchfield-wrap,
+    .canvas-area {
+      max-width: 100% !important;
+      width: 100% !important;
+
+      position: absolute !important;
+      height: 100% !important;
+    }
+    .sketchfield-wrap {
+      flex-basis: 100% !important;
+      padding: 0 !important;
+    }
+    .appbar-wrap {
+      padding: 0 !important;
+    }
+    .container {
+      margin: 0 !important;
+      width: 100% !important;
+    }
+    body {
+      margin: 0 !important;
+      overflow: scroll !important;
+    }
+    .canvas-area {
+      background: white;
+    }
+    /*.menu-sidebar > div > div > div:last-child {
+      padding-bottom: 26px !important;
+    }*/
+    .row {
+      margin: 0 !important;
+    }
+    .menu-sidebar {
+      position: absolute !important;
+      top: 50px;
+      left: -8px;
+      max-width: 100% !important;
+    }
+    .menu-sidebar button {
+      padding: 0 !important;
+      width: 40px !important;
+      height: 20px !important;
+      position: relative !important;
+      top: 6px !important;
+      padding-bottom: 40px !important;
+    }
+    .menu-sidebar div {
+      box-shadow: none !important;
+      /*margin: 0 !important;*/
+    }
+    .compact-picker {
+      background: white !important;
+    }
+    .menu-sidebar > div > div {
+      padding-bottom: 0 !important;
+    }
+    .slider-wrap div {
+      margin-bottom: 0px !important;
+    }
+    .colorLabel {
+      margin-bottom: 10px !important;
+      display: block !important;
+    }
+    /*.slider-wrap div {
+      margin-bottom: 0px !important;
+      margin-top: 12px !important;
+    }*/
+    .saved-painting > div > div > div > div {
+      width: 100%;
+      max-width: 280px;
+      border: 1px solid #3A3335;
+      max-height: 220px;
+      position: absolute !important;
+      right: 10px !important;
+    }
+    .saved-painting div div div div {
+      background: #3A3335 !important;
+      display: flex;
+      align-items: center;
+      /* text-shadow: 2px 2px black; */
+      font-family: 'Raleway', sans-serif;
+      z-index: 2;
+      top: 60px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">

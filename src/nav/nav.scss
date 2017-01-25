@@ -1,0 +1,97 @@
+@import '../variables';
+
+
+.navWrap {
+  background: $lightgrey;
+  height: 50px;
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+
+  img {
+    width: 100%;
+    max-width: 158px;
+    margin-left: 7px;
+    margin-top: 4px;
+  }
+
+  .menuItem {
+    float: right;
+    width: 100%;
+    max-width: 30px;
+    list-style-type: none;
+    position: absolute;
+    right: 212px;
+    top: 4px;
+    a li {
+      color: $darkgrey;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+    .browseIcon {
+      top: -65px;
+      left: 136px;
+    }
+    .browseText {
+      top: -90px;
+      right: -198px;
+      left: auto;
+    }
+    img {
+      float: right;
+      display: inline;
+      position: relative;
+      top: -15px;
+      left: 46px;
+    }
+    span {
+      float: right;
+      display: inline;
+      position: relative;
+      top: -39px;
+      left: 86px;
+    }
+  }
+}
+
+.menuBtnWrap {
+  float: right;
+  position: relative;
+  // left: -130px;
+  left: 0;
+  padding-right: 10px;
+  width: 100%;
+  max-width: 190px;
+  a {
+    color: $darkgrey;
+    text-decoration: none;
+  }
+  .menuBtn:hover {
+      opacity: 0.7;
+  }
+  .menuBtn span img {
+    width: 100%;
+    max-width: 28px;
+    position: relative;
+    top: 8px;
+  }
+  .menuBtn span {
+    height: 50px;
+    display: block;
+    width: 110px;
+    // background: rgba(255,0,0,0.5);
+  }
+}
+
+.browseWrap {
+  position: relative;
+  top: -50px;
+  right: -90px;
+}
+.menuBtnBrowse {
+  position: relative;
+  top: 0px;
+  height: 0px;
+}
