@@ -6,12 +6,12 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var DashboardPlugin = require('webpack-dashboard/plugin');
 var FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
-// const HOST = process.env.HOST || "127.0.0.1";
-// const PORT = process.env.PORT || "8888";
+const HOST = process.env.HOST || "localhost";
+const PORT = process.env.PORT || "8888";
 
 
-const HOST = process.env.HOST || "138.197.117.94";
-const PORT = process.env.PORT || "5000";
+// const HOST = process.env.HOST || "138.197.117.94";
+// const PORT = process.env.PORT || "5000";
 
 
 // global css
@@ -67,7 +67,7 @@ module.exports = {
 		// do not print bundle build stats
 		noInfo: true,
 		// enable HMR
-		hot: true,
+		hot: false,
 		// embed the webpack-dev-server runtime into the bundle
 		inline: true,
 		// serve index.html in place of 404 responses to allow HTML5 history

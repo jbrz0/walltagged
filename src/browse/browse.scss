@@ -1,6 +1,10 @@
 @import '../variables';
 @import '../welcome/welcome';
 
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 .browseWrap {
   background: $darkgrey;
 }
