@@ -1,13 +1,10 @@
-// import ReactDOM from 'react-dom'; - if needed
 import React from 'react';
 import Nav from '../nav/nav.jsx';
 import s from './browse.scss';
 import cx from 'classnames';
 
-
 import PopularTags from '../welcome/popularTags.jsx';
 import LogoFooter from '../img/logo-footer.svg';
-
 
 import PhotoBrowsePath from '../img/browse.jpg';
 import BoxOnePhotoPath from '../img/template/template1.jpg';
@@ -29,8 +26,6 @@ const BoxSixPhoto = {backgroundImage: 'url(' + BoxSixPhotoPath + ')'}
 const BoxSevenPhoto = {backgroundImage: 'url(' + BoxSevenPhotoPath + ')'}
 const BoxEightPhoto = {backgroundImage: 'url(' + BoxEightPhotoPath + ')'}
 
-const materialIcons = "material-icons";
-
 class Browse extends React.Component {
 
   render() {
@@ -39,7 +34,6 @@ class Browse extends React.Component {
         <Nav />
 
         <div className={s.browseSection} style={PhotoBrowse}>
-
 
           <h1>browse templates</h1>
 

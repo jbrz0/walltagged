@@ -13,11 +13,6 @@ export default class Nav extends React.Component {
       <div className={s.navWrap}>
         <a href="/"><img src={Logo} className={s.logoNav} /></a>
 
-        {/* <ul className={s.menuItem}>
-          <a href="#"><li><img src={NewIcon} /> <span>New</span></li></a>
-          <a href="#"><li><img src={BrowseIcon} className={s.browseIcon} /> <span className={s.browseText}>Browse</span></li></a>
-        </ul> */}
-
         <div className={s.menuBtnWrap}>
           <a href="canvas">
             <div className={s.menuBtn}>

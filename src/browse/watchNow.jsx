@@ -13,7 +13,6 @@ export default class WatchNow extends React.Component {
         <div className={s.howItWorksImg}>
           HOW IT WORKS IMAGE
         </div>
-
         <a href="canvas" className={s.tryItBtn}>try it</a>
       </div>
 

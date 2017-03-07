@@ -1,1 +1,1 @@
-export default {"objects":[],"background":""}
+export default {"objects": [], "background": ""}
